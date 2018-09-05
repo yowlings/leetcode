@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/subString.dir/subString.cpp.o  -o subString 

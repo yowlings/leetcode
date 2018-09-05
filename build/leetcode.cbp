@@ -1,143 +1,233 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CodeBlocks_project_file>
-   <FileVersion major="1" minor="6" />
-   <Project>
-      <Option title="leetcode" />
-      <Option makefile_is_custom="1" />
-      <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;" />
-      <Build>
-      <Target title="all">
-         <Option working_dir="/home/roc/code/leetcode/build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/ninja -v all" />
-            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
-            <Clean command="/usr/bin/ninja -v clean" />
-            <DistClean command="/usr/bin/ninja -v clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="rebuild_cache">
-         <Option working_dir="/home/roc/code/leetcode/build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/ninja -v rebuild_cache" />
-            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
-            <Clean command="/usr/bin/ninja -v clean" />
-            <DistClean command="/usr/bin/ninja -v clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="edit_cache">
-         <Option working_dir="/home/roc/code/leetcode/build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/ninja -v edit_cache" />
-            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
-            <Clean command="/usr/bin/ninja -v clean" />
-            <DistClean command="/usr/bin/ninja -v clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="addTwoNumbers">
-         <Option output="/home/roc/code/leetcode/build/addTwoNumbers" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/roc/code/leetcode/build" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/ninja -v addTwoNumbers" />
-            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
-            <Clean command="/usr/bin/ninja -v clean" />
-            <DistClean command="/usr/bin/ninja -v clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="addTwoNumbers/fast">
-         <Option output="/home/roc/code/leetcode/build/addTwoNumbers" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/roc/code/leetcode/build" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/ninja -v addTwoNumbers/fast" />
-            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
-            <Clean command="/usr/bin/ninja -v clean" />
-            <DistClean command="/usr/bin/ninja -v clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="twoSum">
-         <Option output="/home/roc/code/leetcode/build/twoSum" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/roc/code/leetcode/build" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/ninja -v twoSum" />
-            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
-            <Clean command="/usr/bin/ninja -v clean" />
-            <DistClean command="/usr/bin/ninja -v clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="twoSum/fast">
-         <Option output="/home/roc/code/leetcode/build/twoSum" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/roc/code/leetcode/build" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/ninja -v twoSum/fast" />
-            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
-            <Clean command="/usr/bin/ninja -v clean" />
-            <DistClean command="/usr/bin/ninja -v clean" />
-         </MakeCommands>
-      </Target>
-      </Build>
-      <Unit filename="/home/roc/code/leetcode/addTwoNumbers.cpp">
-         <Option target="addTwoNumbers"/>
-      </Unit>
-      <Unit filename="/home/roc/code/leetcode/twoSum.cpp">
-         <Option target="twoSum"/>
-      </Unit>
-      <Unit filename="/home/roc/code/leetcode/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\" />
-      </Unit>
-   </Project>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leetcode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="medianNum">
+				<Option output="/Users/roc/code/leetcode/build/medianNum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 medianNum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="medianNum/fast">
+				<Option output="/Users/roc/code/leetcode/build/medianNum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 medianNum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="subString">
+				<Option output="/Users/roc/code/leetcode/build/subString" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 subString"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="subString/fast">
+				<Option output="/Users/roc/code/leetcode/build/subString" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 subString/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addTwoNumbers">
+				<Option output="/Users/roc/code/leetcode/build/addTwoNumbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 addTwoNumbers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addTwoNumbers/fast">
+				<Option output="/Users/roc/code/leetcode/build/addTwoNumbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 addTwoNumbers/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoSum">
+				<Option output="/Users/roc/code/leetcode/build/twoSum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 twoSum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoSum/fast">
+				<Option output="/Users/roc/code/leetcode/build/twoSum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/roc/code/leetcode/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 twoSum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/roc/code/leetcode/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/roc/code/leetcode/addTwoNumbers.cpp">
+			<Option target="addTwoNumbers"/>
+		</Unit>
+		<Unit filename="/Users/roc/code/leetcode/medianNum.cpp">
+			<Option target="medianNum"/>
+		</Unit>
+		<Unit filename="/Users/roc/code/leetcode/subString.cpp">
+			<Option target="subString"/>
+		</Unit>
+		<Unit filename="/Users/roc/code/leetcode/twoSum.cpp">
+			<Option target="twoSum"/>
+		</Unit>
+		<Unit filename="/Users/roc/code/leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
 </CodeBlocks_project_file>

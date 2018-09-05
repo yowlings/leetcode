@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/medianNum.dir/medianNum.cpp.o  -o medianNum 
